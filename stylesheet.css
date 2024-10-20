@@ -106,7 +106,6 @@ a:link {
   border: 1px solid #1f1f1f7c;
   box-shadow: none;
   width: 99%;
-  max-width: 800px;
   padding-left: 5px;
 }
 
@@ -157,6 +156,7 @@ table, th, td {
   font-family: Arial, sans-serif;
   margin-left: 2%;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .divright{
