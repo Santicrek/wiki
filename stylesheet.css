@@ -26,8 +26,6 @@ h1{
     background-color: #f8f9fa50;
     border: 1px solid #46474733;
     border-radius: 4px;
-    color: #3c4
-    043e0;
     font-family: Roboto,arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -101,17 +99,16 @@ a:link {
 
 .bar-adv{
   display: flex;
-    justify-content: center;
-    margin: 1px auto;
-    margin-bottom: 10px;
-    min-height: 25px;
-    outline: none;
-    border: 1px solid #1f1f1f7c;
-    box-shadow: none;
-    width: 80%;
-    max-width: 600px;
-    padding-left: 5px;
-
+  justify-content: center;
+  margin: 1px auto;
+  margin-bottom: 10px;
+  min-height: 25px;
+  outline: none;
+  border: 1px solid #1f1f1f7c;
+  box-shadow: none;
+  width: 99%;
+  max-width: 800px;
+  padding-left: 5px;
 }
 
 .advhead{
@@ -122,17 +119,16 @@ a:link {
 }
 
 .table,td{
-  font-family: Arial, sans-serif;
   font-size: 13px;
   color: #333333;
 }
 
 .table,th{
-  font-weight: normal;
-  font-family: Arial, sans-serif;
+  text-align: left;
+  padding-left: 5px;
   font-size: 16px;
   margin: 10px;
-  text-align: left;
+  margin-left: 10px;
   color: #333333;
 
 }
@@ -144,4 +140,27 @@ a:link {
   border-top: 1px;
   border-color: #8080803b;
   margin-bottom: 50px;
+}
+
+.advbott{
+  text-align: right;
+  display: flex;
+  height: 30px;
+  border: 1px solid #3079ed;
+  min-width: 120px;
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  color: #fff;
+  border-radius: 2px;
+}
+
+table, th, td {
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  margin-left: 2%;
+}
+
+.divright{
+  display: flex;
+  justify-content: right;
 }
