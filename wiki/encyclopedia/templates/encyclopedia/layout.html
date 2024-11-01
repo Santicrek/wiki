@@ -13,16 +13,17 @@
             <div class="sidebar col-lg-2 col-md-3">
                 <h2>Felipedia</h2>
                 <form>
-                    <input class="search" type="text" name="q" placeholder="Search Encyclopedia">
+                    <input class="search" type="text" name="q" placeholder="Search Felipedia">
+                    <input type="submit" hidden>
                 </form>
                 <div>
                     <a href="{% url 'index' %}">Home</a>
                 </div>
                 <div>
-                    Create New Page
+                    <a href="{% url 'add' %}">New Entry</a>                 
                 </div>
                 <div>
-                    Random Page
+                    <a href="{% url 'random_entry' %}">Random page</a>  
                 </div>
                 {% block nav %}
                 {% endblock %}

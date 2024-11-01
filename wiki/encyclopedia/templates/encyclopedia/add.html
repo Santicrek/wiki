@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+   Felipedia
+{% endblock %}
+
+{% block body %}
+    <h1>Nueva entrada</h1>
+
+    <ul>
+        <form>
+            <input class="add" type="text" name="new" placeholder="New Felipedia entry">
+            <input type="submit" hidden>
+        </form>
+    </ul>
+
+{% endblock %}
